@@ -1,0 +1,93 @@
+.featured {
+    -webkit-box-align: 2px 4px 10px 1px rgba(0, 0, 9, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    flex: 2;
+    padding: 10px;
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgb(196, 192, 192);
+
+
+        .tittle {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .bottom {
+        margin-top: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+
+        .featuerchart {
+            width: 100px;
+            height: 100px;
+
+        }
+
+        .tittle {
+            font-weight: 500;
+            color: rgb(187, 182, 182);
+            text-align: center;
+        }
+
+        .amount {
+            font-size: 30px;
+
+        }
+
+        .desc {
+            font-size: 13px;
+            font-weight: 300;
+            color: gray;
+            text-align: center;
+        }
+
+        .summary {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .item {
+                text-align: center;
+
+
+
+                .itemtittle {
+                    font-size: 15px;
+                    color: gray;
+
+                }
+
+                .itemresult {
+                    display: flex;
+                    align-items: center;
+                    // justify-content: space-between;
+                    margin-top: 10px;
+                    font-size: 13px;
+
+                    &.positive {
+                        color: green;
+
+                    }
+
+                    &.negative {
+                        color: red;
+
+
+                    }
+                }
+            }
+        }
+
+    }
+}
